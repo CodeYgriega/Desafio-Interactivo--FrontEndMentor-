@@ -139,3 +139,49 @@ body {
         background-color: var(--white);
         color: var(--orange);
     }
+
+@media screen and (min-width: 475px) {
+    .target {
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width: 650px) {
+    .target {
+        margin-top: 16%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .target {
+        margin-top: 13%;
+        width: 380px;
+        padding: 25px;
+    }
+    .main-info {
+        margin-top: 10px;
+    }
+        .main-info h1 {
+            font-size: 27px;
+        }
+    .container-star {
+        margin-bottom: 15px;
+    }
+    .numbers {
+        margin-bottom: 10px;
+    }
+@media screen and (min-width: 1100px) {
+    .target {
+        margin-top: 11%;
+        margin-right: 30px;
+        width: 380px;
+        padding: 25px;
+    }
+    .main-info {
+        margin-top: 10px;
+    }
+    .main-info h1 {
+        font-size: 27px;
+    }
+    .container-star {
+        margin-bottom: 15px;
+    }
+}

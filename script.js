@@ -184,7 +184,7 @@ boton.addEventListener("click", (event) => {
     if (eleccionUsuario === 1 || eleccionUsuario === 2 || eleccionUsuario === 3 || eleccionUsuario === 4 || eleccionUsuario === 5) {
         event.preventDefault();
         target.style.textAlign = "center";
-        target.style.gap = "15px";
+        target.style.gap = "5px";
         target.style.padding = "30px";
         target.innerHTML = `<div><img src="/thank-you-img.png" alt="" width="200px">
                 <div id="seleccionado">
