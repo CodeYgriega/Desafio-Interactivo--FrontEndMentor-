@@ -1,0 +1,141 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(214, 19%, 15%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--very-dark-blue);
+    font-family: 'Overpass', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.target {
+    background-color: var(--dark-blue);
+    width: 350px;
+    height: 380px;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5%;
+}
+#mainInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--white);
+}
+#seleccionado {
+    font-weight: 400;
+    color: var(--orange);
+}
+#seleccionado p{
+    background-color: hsla(213, 20%, 22%, 0.897);
+    font-size: 15px;
+    padding: 6px 20px;
+    border-radius: 30px;
+}
+.container-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(213, 20%, 22%, 0.897);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.main-info h1{
+    font-size: 25px;
+}
+.main-info p{
+    color: var(--medium-grey);
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.numbers .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(213, 20%, 22%, 0.897);
+    color: var(--medium-grey);
+    font-size: 15px;
+    font-weight: 700;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    #one:hover{
+        background-color: rgb(14, 13, 13);
+        color: var(--white);
+        font-size: 18px;
+        width: 55px;
+        height: 55px;
+    }
+    #two:hover{
+        background-color: rgb(53, 50, 50);
+        color: var(--white);
+        font-size: 18px;
+        width: 55px;
+        height: 55px;
+    }
+    #three:hover{
+        background-color: var(--white);
+        color: var(--very-dark-blue);
+        font-size: 18px;
+        width: 55px;
+        height: 55px;
+    }
+    #four:hover {
+        background-color: var(--light-grey);
+        color: var(--white);
+        font-size: 18px;
+        width: 55px;
+        height: 55px;
+    }
+    #five:hover {
+        background-color: var(--orange);
+        color: var(--white);
+        font-size: 18px;
+        width: 55px;
+        height: 55px;
+    }
+.boton {
+    border: none;
+    border-style: none;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+    .boton:hover {
+        cursor: pointer;
+        background-color: var(--white);
+        color: var(--orange);
+    }
